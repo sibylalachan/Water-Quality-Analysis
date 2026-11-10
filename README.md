@@ -61,3 +61,12 @@ The project evaluates several classification algorithms:
 * Precision & Recall
 * F1-Score
 * Confusion Matrix
+
+## 📈 Results
+The notebooks contain the experiments and model evaluation performed during the project.
+The project ultimately explores improvements to the classification models, including experimentation with the Decision Tree approach and handling class imbalance.
+For the exact experimental results, metrics, and visualizations, see:
+- `water_quality_predicting.ipynb`
+
+---
+
