@@ -56,7 +56,3 @@ Random Forest also had the strongest class-wise scores, with precision and recal
 - Features are not scaled (`StandardScaler` is imported but not used), which affects KNN, SVM and Logistic Regression.
 - The Decision Tree depth and the KNN `k` were chosen by comparing test-set accuracy rather than using cross-validation.
 - Gaussian Naive Bayes is evaluated in the notebook but is not included in the final comparison table and chart.
-
-## Author
-
-**Your Name** · [GitHub](https://github.com/your-username)
