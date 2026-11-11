@@ -54,7 +54,6 @@ The project evaluates several classification algorithms:
 * **Random Forest Classifier**
 * **K-Nearest Neighbors (KNN)**
 * **Support Vector Machine (SVM)**
-* **Gaussian Naive Bayes**
 
 ### **Evaluation Metrics**:
 * Accuracy
