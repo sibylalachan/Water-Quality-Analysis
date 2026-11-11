@@ -1,20 +1,20 @@
 # WaterGuard: Water Quality Prediction & Potability Classification Pipeline
 
-## 🌊 Overview
+## Overview
 **WaterGuard** is an end-to-end machine learning and data engineering project that predicts whether a water sample is safe for human consumption (`is_safe` / potability) based on physical, chemical, and biological contaminant metrics. 
 
 The project combines data ingestion, anomaly cleaning (handling string artifacts like `#NUM!`), exploratory data analysis (EDA), handling class imbalance using SMOTE, machine learning model comparison, automated testing, and web-based deployment.
 
 ---
 
-## 📋 Problem Statement
+## Problem Statement
 Contaminants such as heavy metals (lead, mercury, arsenic, cadmium), chemical compounds (ammonia, nitrates, perchlorate), and pathogens pose severe public health risks. Manual water quality testing is slow and costly. 
 
 The objective of this project is to build a robust, reproducible data pipeline and an interactive machine learning application that predicts water safety instantly based on lab or sensor parameters.
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 * **Source**: IBM / Kaggle Water Quality Prediction Dataset (`waterQualityPrediction.csv`).
 * **Dimensions**: 7,999 rows × 21 columns.
 * **Target Variable**: `is_safe` (Binary: `1` for safe water, `0` for unsafe/non-potable water).
@@ -25,7 +25,7 @@ The objective of this project is to build a robust, reproducible data pipeline a
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **Programming Language**: Python
 - **Data Manipulation & Analysis**: Pandas, NumPy
 - **Data Visualization**: Matplotlib, Seaborn, Plotly
@@ -36,7 +36,7 @@ The objective of this project is to build a robust, reproducible data pipeline a
 
 ---
 
-## ⚙️ Project Workflow
+## Project Workflow
 1. **Data Ingestion**: Load the raw water quality dataset.
 2. **Data Cleaning**: Identify and clean string anomalies (e.g., converting `#NUM!` values in the `ammonia` column to numeric floats).
 3. **Exploratory Data Analysis**: Analyze distributions, feature correlations, and class imbalances.
@@ -47,7 +47,7 @@ The objective of this project is to build a robust, reproducible data pipeline a
 
 ---
 
-## 🤖 Machine Learning Models Compared
+## Machine Learning Models Compared
 The project evaluates several classification algorithms:
 * **Logistic Regression**
 * **Decision Tree Classifier**
@@ -61,7 +61,7 @@ The project evaluates several classification algorithms:
 * F1-Score
 * Confusion Matrix
 
-## 📈 Results
+## Results
 The notebooks contain the experiments and model evaluation performed during the project.
 The project ultimately explores improvements to the classification models, including experimentation with the Decision Tree approach and handling class imbalance.
 For the exact experimental results, metrics, and visualizations, see:
